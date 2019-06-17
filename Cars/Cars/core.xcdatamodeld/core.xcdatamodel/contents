@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Books" representedClassName="Books" syncable="YES" codeGenerationType="class">
+        <attribute name="autor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editorial" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paginas" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titulo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Cars" representedClassName="Cars" syncable="YES" codeGenerationType="class">
+        <attribute name="anio" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="marca" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="modelo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transmision" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Books" positionX="-54" positionY="9" width="128" height="105"/>
+        <element name="Cars" positionX="-54" positionY="36" width="128" height="105"/>
+    </elements>
+</model>
