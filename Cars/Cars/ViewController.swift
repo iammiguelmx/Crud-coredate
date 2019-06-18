@@ -2,8 +2,6 @@
 //  ViewController.swift
 //  core
 //
-//  Created by Yogesh Patel on 26/04/18.
-//  Copyright © 2018 Yogesh Patel. All rights reserved.
 //
 
 import UIKit
@@ -29,7 +27,7 @@ class ViewController: UIViewController, DataPass {
         
         let dict : [String:String] = ["marca": txtMarca.text!, "modelo": txtModelo.text!, "transmision": txtTransmision.text!, "anio": txtAnio.text!]
         if isUpdate{
-            DatabaseHelper.shareInstance.editCar(object: dict as! [String:String], i: i)
+            DatabaseHelper.shareInstance.editCar(object: dict , i: i)
         }else{
             DatabaseHelper.shareInstance.save(object: dict )
         }
@@ -61,7 +59,6 @@ class ViewController: UIViewController, DataPass {
         txtModelo.text = object["modelo"]
         txtTransmision.text = object["transmision"]
         txtAnio.text = object["anio"]
-        
         
         i = index
         isUpdate = isEdit

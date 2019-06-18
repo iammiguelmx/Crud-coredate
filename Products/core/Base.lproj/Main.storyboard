@@ -121,35 +121,45 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="142.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URi-lo-DTL" userLabel="Lbl Producto">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="URi-lo-DTL" userLabel="Lbl Producto">
                                                     <rect key="frame" x="0.0" y="22" width="375" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CxV-b3-E0d" userLabel="Lbl Categoria">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CxV-b3-E0d" userLabel="Lbl Categoria">
                                                     <rect key="frame" x="0.0" y="48" width="375" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkP-9c-yE3" userLabel="Lbl Precio">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkP-9c-yE3" userLabel="Lbl Precio">
                                                     <rect key="frame" x="0.0" y="74" width="375" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62l-6k-YFd" userLabel="LblCodigo">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62l-6k-YFd" userLabel="LblCodigo">
                                                     <rect key="frame" x="0.0" y="2" width="375" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="62l-6k-YFd" firstAttribute="trailing" secondItem="URi-lo-DTL" secondAttribute="trailing" id="C2b-DO-dA4"/>
+                                                <constraint firstAttribute="trailing" secondItem="62l-6k-YFd" secondAttribute="trailing" id="FkZ-DM-5c1"/>
+                                                <constraint firstItem="URi-lo-DTL" firstAttribute="top" secondItem="e33-wo-fB8" secondAttribute="topMargin" constant="11" id="KM1-gQ-hFD"/>
+                                                <constraint firstItem="DkP-9c-yE3" firstAttribute="top" secondItem="CxV-b3-E0d" secondAttribute="bottom" constant="5" id="KuT-nI-J2E"/>
+                                                <constraint firstItem="CxV-b3-E0d" firstAttribute="trailing" secondItem="DkP-9c-yE3" secondAttribute="trailing" id="PdQ-ZD-3ff"/>
+                                                <constraint firstItem="62l-6k-YFd" firstAttribute="leading" secondItem="URi-lo-DTL" secondAttribute="leading" id="VA5-ga-rlD"/>
+                                                <constraint firstItem="62l-6k-YFd" firstAttribute="leading" secondItem="e33-wo-fB8" secondAttribute="leading" id="Wcv-KX-tRm"/>
+                                                <constraint firstItem="CxV-b3-E0d" firstAttribute="leading" secondItem="DkP-9c-yE3" secondAttribute="leading" id="d99-0u-Dre"/>
+                                                <constraint firstItem="URi-lo-DTL" firstAttribute="trailing" secondItem="CxV-b3-E0d" secondAttribute="trailing" id="gzC-4i-l0J"/>
+                                                <constraint firstItem="CxV-b3-E0d" firstAttribute="top" secondItem="62l-6k-YFd" secondAttribute="bottom" constant="25" id="uwU-55-KaI"/>
+                                                <constraint firstItem="CxV-b3-E0d" firstAttribute="top" secondItem="URi-lo-DTL" secondAttribute="bottom" constant="5" id="xeK-jS-yVg"/>
+                                                <constraint firstItem="URi-lo-DTL" firstAttribute="leading" secondItem="CxV-b3-E0d" secondAttribute="leading" id="zmU-YO-Kdn"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="LblCategoria" destination="CxV-b3-E0d" id="UaO-bv-74D"/>

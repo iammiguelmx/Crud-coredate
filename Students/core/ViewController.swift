@@ -27,7 +27,7 @@ class ViewController: UIViewController, DataPass {
         
         let dict : [String:String] = ["codigo": txtCodigo.text!, "direccion": txtDireccion.text!, "especialidad": txtEspecialidad.text!, "nombre": txtNombre.text!, "telefono": txtTelefono.text!]
         if isUpdate{
-            DatabaseHelper.shareInstance.editStundet(object: dict as! [String:String], i: i)
+            DatabaseHelper.shareInstance.editStundet(object: dict,  i: i)
         }else{
             DatabaseHelper.shareInstance.save(object: dict )
         }

@@ -89,19 +89,19 @@
 				90350B4B2091AD6C00555011 /* cancion */,
 				90350B632091AD6C00555011 /* coreTests */,
 				90350B6E2091AD6C00555011 /* coreUITests */,
-				90350B4A2091AD6C00555011 /* Products */,
+				90350B4A2091AD6C00555011 /* Cancion */,
 				90350B832091B0B200555011 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		90350B4A2091AD6C00555011 /* Products */ = {
+		90350B4A2091AD6C00555011 /* Cancion */ = {
 			isa = PBXGroup;
 			children = (
 				90350B492091AD6C00555011 /* cancion.app */,
 				90350B602091AD6C00555011 /* cancionTests.xctest */,
 				90350B6B2091AD6C00555011 /* cancionUITests.xctest */,
 			);
-			name = Products;
+			name = Cancion;
 			sourceTree = "<group>";
 		};
 		90350B4B2091AD6C00555011 /* cancion */ = {
@@ -215,18 +215,18 @@
 				TargetAttributes = {
 					90350B482091AD6C00555011 = {
 						CreatedOnToolsVersion = 9.0.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					90350B5F2091AD6C00555011 = {
 						CreatedOnToolsVersion = 9.0.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 90350B482091AD6C00555011;
 					};
 					90350B6A2091AD6C00555011 = {
 						CreatedOnToolsVersion = 9.0.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 90350B482091AD6C00555011;
 					};
@@ -241,7 +241,7 @@
 				Base,
 			);
 			mainGroup = 90350B402091AD6C00555011;
-			productRefGroup = 90350B4A2091AD6C00555011 /* Products */;
+			productRefGroup = 90350B4A2091AD6C00555011 /* Cancion */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -467,7 +467,7 @@
 				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = utng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -482,7 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = utng;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -498,7 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yogesh-patel.coreTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cancion.app/cancion";
 			};
@@ -515,7 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yogesh-patel.coreTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cancion.app/cancion";
 			};
@@ -531,7 +531,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yogesh-patel.coreUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = core;
 			};
@@ -547,7 +547,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yogesh-patel.coreUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = core;
 			};
