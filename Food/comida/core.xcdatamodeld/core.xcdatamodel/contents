@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14490.99" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Foods" representedClassName="Foods" syncable="YES" codeGenerationType="class">
+        <attribute name="area" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mesa" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mesero" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="personas" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Foods" positionX="-54" positionY="36" width="128" height="105"/>
+    </elements>
+</model>
